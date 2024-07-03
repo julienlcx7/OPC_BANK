@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { getuser } from '../../actions/user.action';
-import logo from "../../img/argentBankLogo.png";
+import logo from "../../img/argentBankLogo.webp";
 import "@fortawesome/fontawesome-free/css/all.css";
 import { useNavigate } from 'react-router-dom';
 const Navbar = ({ name_account }) => {
