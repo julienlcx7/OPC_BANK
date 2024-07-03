@@ -15,3 +15,8 @@
   .sign-in-icon {
     font-size: 5rem;
   }
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
