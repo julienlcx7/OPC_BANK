@@ -1,8 +1,8 @@
 import React from 'react';
 import './Features.css'; // Make sure to create a corresponding CSS file for styling
-import icon_chat from "../../img/icon-chat.png"
-import icon_money from "../../img/icon-money.png"
-import icon_security from "../../img/icon-security.png"
+import icon_chat from "../../img/icon-chat.webp"
+import icon_money from "../../img/icon-money.webp"
+import icon_security from "../../img/icon-security.webp"
 import Feature_popup from '../Feature_popup/Feature_popup';
 function Features() {
   return (
