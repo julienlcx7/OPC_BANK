@@ -277,15 +277,15 @@ definitions:
         properties:
           id:
             type: string
-            date:
+          date:
             type: string
-            amount:
+          amount:
             type: number
-            description:
+          description:
             type: string
-            category:
+          category:
             type: string
-            notes:
+          notes:
             type: string
   transaction:
     type: object
