@@ -3,6 +3,17 @@
   flex-direction: column;
   align-items: center;
 }
+.edit{
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
 .header form{
   display: flex;
   flex-direction: column;
@@ -25,4 +36,13 @@
 }
 .header input:disabled{
  color: white;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px
+}
+button.cancel{
+  background-color: gray;
 }
