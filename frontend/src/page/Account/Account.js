@@ -22,7 +22,7 @@ const Login = () => {
       console.log("run post");
     } else {
       console.log('No token available');
-      navigate('/account')
+      navigate('/login')
       
     }
   }, [token, dispatch]);
